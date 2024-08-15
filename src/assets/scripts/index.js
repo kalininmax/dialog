@@ -19,6 +19,7 @@ class ProjectApp {
 		this.modules = {};
 		this.components = {
 			Examples: require('../../includes/examples/examples').default,
+			Popups: require('../../components/popups/popups').default,
 		};
 		this.helpers = {};
 
